@@ -17,7 +17,10 @@ object TwoSum {
     def main(args: Array[String]): Unit = {
         // Solution.methodName()
         val solution = Solution
-        solution.twoSum(Array(3, 2, 4), 6)
+        val nums = Array(3, 2, 4)
+        val result = solution.twoSum(Array(3, 2, 4), 6)
+        result.foreach(r => println(r))
+
     }
 
 
