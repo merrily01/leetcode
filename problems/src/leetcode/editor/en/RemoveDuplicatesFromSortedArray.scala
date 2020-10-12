@@ -46,7 +46,7 @@ object RemoveDuplicatesFromSortedArray {
     def main(args: Array[String]): Unit = {
       // Solution.methodName()
       val solution = Solution
-      val nums = Array(1,1,2)
+      val nums = Array(1, 1, 2)
       println(s"result = ${solution.removeDuplicates(nums)}")
     }
 
@@ -70,4 +70,4 @@ object Solution {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-  }
+}
